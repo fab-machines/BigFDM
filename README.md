@@ -10,8 +10,9 @@ NOTE
 
 BigFDM
 --
-BigFDM is a large scale 3D printer allowing the making of big objects. Developed and built in a Fab Lab, it will allow to run classes on 3D printing and to make different experimentation useful in different scenarios, for example the printing of orthotics and prosthesis of any size, furniture, replacement parts, industrial design prototypes, molds for casting of full scale parts, artistic installations, musical instruments. Further possibilities are to print parts of other open source machines and equipment, giving to the user the freedom to prototype using large scale parts.**BigFDM specifications**:- 800mm x 800mm x 800mm printing area
+BigFDM is a large scale 3D printer allowing the making of big objects. Developed and built in a Fab Lab, it will allow to run classes on 3D printing and to make different experimentation useful in different scenarios, for example the printing of orthotics and prosthesis of any size, furniture, replacement parts, industrial design prototypes, molds for casting of full scale parts, artistic installations, musical instruments. Further possibilities are to print parts of other open source machines and equipment, giving to the user the freedom to prototype using large scale parts.**BigFDM specifications**:- 800mm x 800mm x 900mm printing area
 - dual extruder with interchangeble nozzle
+- 0.4 - 1mm nozzle size
 - NEMA 24, 23 and 17 stepper motors
 - stages with HiWin linear guides
 - anodized aluminium frame
@@ -52,8 +53,21 @@ Contact
 - **[linkedin](http://it.linkedin.com/in/danieleingrassia)**
 
 
-Thanks
+Acknowledgements
 --
+
+The development of this machine has been funded by:<br>
+**[German Federal Ministry of Education and Research](https://www.bmbf.de/en/index.html)**
+
+Fund implemented by:<br>
+**[OpenLab Hamburg](http://openlab-hamburg.de/startpage/)**<br>
+[Helmut-Schmidt-Universität Universität der Bundeswehr](https://www.hsu-hh.de/en/)<br>
+Laboratorium Fertigungstechnik<br>
+Holstenhofweg 85<br>
+22043 Hamburg<br>
+
+
+Thanks:<br>
 **[Fablab UAE](http://fablabuae.ae/)**<br />
 176 6 D St - Satwa <br />
 Dubai - United Arab Emirates<br />
