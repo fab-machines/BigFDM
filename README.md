@@ -41,11 +41,11 @@ alt="http://img.youtube.com/vi/w7HM4-2B8Nc/0.jpg" width="800" height="600" borde
 Author
 --
 
-Daniele Ingrassia
+**[Daniele Ingrassia](http://www.fabacademy.org/archives/2015/eu/students/ingrassia.daniele/index.html)**
 
 Project Helper: 
 
-- Hashim Al Sakkaf
+- **[Hashim Al Sakkaf](http://archive.fabacademy.org/fabacademy2017/fablabuae/students/154/)**
 
 Contact
 --
@@ -59,7 +59,7 @@ Acknowledgements
 The development of this machine has been funded by:<br>
 **[German Federal Ministry of Education and Research](https://www.bmbf.de/en/index.html)**
 
-Fund implemented by:<br>
+Funds implemented by:<br>
 **[OpenLab Hamburg](http://openlab-hamburg.de/startpage/)**<br>
 [Helmut-Schmidt-Universität Universität der Bundeswehr](https://www.hsu-hh.de/en/)<br>
 Laboratorium Fertigungstechnik<br>
