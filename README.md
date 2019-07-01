@@ -3,11 +3,6 @@
 <div align="center"><img src="media/front1.jpg" width="100%"></div>
 <div align="center"><i>Open Source Large Scale 3D Printer</i></div>
 
-NOTE
---
-
-**This is a work-in-progress documentation, that will be updated to a final version soon.**
-
 BigFDM
 --
 BigFDM is a large scale 3D printer allowing the making of big objects. Developed and built in a Fab Lab, it will allow to run classes on 3D printing and to make different experimentation useful in different scenarios, for example the printing of orthotics and prosthesis of any size, furniture, replacement parts, industrial design prototypes, molds for casting of full scale parts, artistic installations, musical instruments. Further possibilities are to print parts of other open source machines and equipment, giving to the user the freedom to prototype using large scale parts.**BigFDM specifications**:- 800mm x 800mm x 900mm printing area
@@ -103,7 +98,13 @@ To control the machine and to stream the G-Code, [Repetier-Host](https://www.rep
 Known issues
 --
 
+- the extruder used is a dual Geetech MK8, which is good up to 0.5mm nozzle but has difficulties in keeping the temperature with an 1mm nozzle; in the future will be replaced by a custom made extruder supporting nozzles up to 2mm
 
+- the electronics setup requires improvements, especially a custom made board in place of the satshakit-mega and an additonal all-in-one board, replacing the mosfet, sensor and endstop boards
+
+
+- the Z axis design needs multiple parts for the supporting corners of the lead screws and the linear rods; in the future replaced by an unique block of CNC milled aluminum
+ 
 
 Media
 --
@@ -157,6 +158,11 @@ fablabuae@gmail.com
 License
 -- 
 This work is licensed under the terms of the open source license: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+
+Note
+--
+
+**This documentation will be continuously updated as soon there are updates and/or improvements on the machine.**
 
 Disclaimer  
 --
