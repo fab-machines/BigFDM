@@ -58,12 +58,15 @@ Developed as an add-in to the satshakit-mega for BigFDM, the mosfet board integr
 
 <img src="media/electronics/SensorBoard.png" width="70%">
 
+The sensor board integrates simple design with filtering capacitors and pull-up resistor. To this board the thermistors from the extruder and one of the thermistor of the bed heaters will be connected, together with the analog pins from the satshakit-mega.
 
 ---------
 
 **Endstop Board**
 
 <img src="media/electronics/EndstopBoard.png" width="70%">
+
+In a similar way of the Sensor Board, the Endstop Boards has some pull-up resistors and some capacitors to filter the noise coming from the endstops. To this board the endstops and the limits min (x-min, y-min, z-min) from the satshakit-mega will be connected. BigFDM uses normally open endstops. 
 
 ---------
 
@@ -157,12 +160,12 @@ fablabuae@gmail.com
 
 License
 -- 
-This work is licensed under the terms of the open source license: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+BigFDM is licensed under the terms of the open source license: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
 
 Note
 --
 
-**This documentation will be continuously updated as soon there are updates and/or improvements on the machine.**
+This documentation will be continuously improved as soon there are updates and/or improvements on the machine.
 
 Disclaimer  
 --
