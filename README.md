@@ -23,7 +23,6 @@ BigFDM is a large scale 3D printer allowing the making of big objects. Developed
 
 Machine design
 --
-
 <img src="media/renderings/rendering_full.png" width="100%">
 
 BigFDM has been designed considering to keep fixed from the beginning few constraints, which then influenced the rest of the subsequent design choices:
@@ -43,19 +42,22 @@ These have been tought in order to bring the following benefits:
 -  the **XY stage indipendent design** can be reused to develop other machines
 -  the machine printing **area can be scaled up/down** just by changing the length of few machine parts
 
-####X and Y stages
+X and Y stages
+--
 
 The X and Y stages integrates all their components inside a squared plane frame of T-Slots profiles. Implementing a sort of **stages interoperability**, the stages frame can be completely detached from the machine, and virtually, plugged into a different machine having similar frame shape (eg a laser cutter). 
 
 <img src="media/renderings/rendering_stages.png" width="100%">
 
-####Z axis
+Z axis
+--
 
 The Z axis uses a single NEMA 24 to move 4 lead screws guided by linear rods and bearings. Because of layer by layer downwards needed movements, the bed will never move fast, with the maximum speed used more for manual movements. The main frame is used as support structure for all the Z axis parts.
 
 <img src="media/renderings/rendering_z.png" width="100%">
 
-####Bed
+Bed
+--
 
 <img src="media/renderings/rendering_b1.png" width="100%">
 
@@ -63,7 +65,8 @@ Made out of a 6mm aluminum plate cut with the CNC, the printing bed is suspended
 
 <img src="media/renderings/rendering_b2.png" width="100%">
 
-####Housing
+Housing
+--
 
 Electronics
 --
