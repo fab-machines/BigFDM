@@ -16,13 +16,9 @@ BigFDM is a large scale 3D printer allowing the making of big objects. Developed
 - power Requirements 220V, 3000W max
 - integrated tablet for machine control
 - USB port
+- cost of about 2600€
 
 <img src="media/printing1.jpg" width="100%">
-
-Building manual
---
-
-**[BigFDM Building Manual](https://github.com/fab-machines/BigFDM/wiki)**
 
 Electronics
 --
@@ -30,23 +26,23 @@ The electronics of BigFDM consists of a set of fabbable electronics, derived fro
 <br><br>
 Following the used boards and their role in BigFDM.<br>
 
-**[satshakit-mega](https://github.com/satshakit/satshakit-mega)**
+**[satshakit-mega](https://github.com/fab-machines/BigFDM/tree/master/electronics/satshakit-mega)**
 
 <img src="media/electronics/satshakit-mega.jpg" width="70%">
 
-Based on the [ATMega2560](https://www.microchip.com/wwwproducts/en/ATmega2560), this board provides the necessary microcontroller hardware for the Marlin manage its logic functionalities. Furthermore integrates an USB-to-Serial converter and USB port. Developed as general purpose board, not all the pins will be used. In the future this board will be a custom made solution for BigFDM.
+Based on the [ATMega2560](https://www.microchip.com/wwwproducts/en/ATmega2560), this board provides the necessary microcontroller hardware for the Marlin manage its logic functionalities. Furthermore integrates an USB-to-Serial converter and USB port. Developed as general purpose board, not all the pins will be used. In the future this board will be a custom made solution for BigFDM. Link to the original [repo](https://github.com/satshakit/satshakit-mega).
 
 ---------
 
-**[satstep6600](https://github.com/satstep/satstep6600)**
+**[satstep6600](https://github.com/fab-machines/BigFDM/tree/master/electronics/satstep6600)**
 
 <img src="media/electronics/satstep6600.jpg" width="70%">
 
-Proved to have a robust design by being used in **[LaserDuo](http://laserduo.com/)** for more than a year, the satstep6600 is the stepper driver used to move the NEMA 23/24 used in BigFDM. Based on the Toshiba [TB6600HG](http://www.massmind.org/images/massmind/TB6600HG_datasheet.pdf) it can give up to 4.5A per coil to a single motor, whereas the NEMA 24 used will take a maximum of 4A.
+Proved to have a robust design by being used in **[LaserDuo](http://laserduo.com/)** for more than a year, the satstep6600 is the stepper driver used to move the NEMA 23/24 used in BigFDM. Based on the Toshiba [TB6600HG](http://www.massmind.org/images/massmind/TB6600HG_datasheet.pdf) it can give up to 4.5A per coil to a single motor, whereas the NEMA 24 used will take a maximum of 4A. Link to the original [repo](https://github.com/satstep/satstep6600).
 
 ---------
 
-**Mosftet Board**
+**[Mosftet Board](https://github.com/fab-machines/BigFDM/tree/master/electronics/mosfet-board)**
 
 <img src="media/electronics/MosfetBoard.png">
 
@@ -54,7 +50,7 @@ Developed as an add-in to the satshakit-mega for BigFDM, the mosfet board integr
 
 ---------
 
-**Sensor Board**
+**[Sensor Board](https://github.com/fab-machines/BigFDM/tree/master/electronics/sensor-board)**
 
 <img src="media/electronics/SensorBoard.png" width="70%">
 
@@ -62,7 +58,7 @@ The sensor board integrates simple design with filtering capacitors and pull-up 
 
 ---------
 
-**Endstop Board**
+**[Endstop Board](https://github.com/fab-machines/BigFDM/tree/master/electronics/endstop-board)**
 
 <img src="media/electronics/EndstopBoard.png" width="70%">
 
@@ -87,7 +83,58 @@ To power all this electronics, and to switch on and off the heaters the followin
 
 Software
 --
-BigFDM uses **[Marlin firmware](https://github.com/MarlinFirmware/Marlin)** running on the satshakit-mega. The configuration changes have been applied into the configuration.h file, you can find it in the [config](https://github.com/fab-machines/BigFDM/tree/master/config) folder of this repository:
+BigFDM uses **[Marlin firmware](https://github.com/MarlinFirmware/Marlin)** running on the satshakit-mega. The configuration changes have been applied into the configuration.h file, you can find it in the [config](https://github.com/fab-machines/BigFDM/tree/master/config) folder of this repository.
+
+To control the machine and to stream the G-Code, [Repetier-Host](https://www.repetier.com/) has been used.
+
+Build your own BigFDM
+--
+
+BigFDM is made by using a mix of fabricated and ready-made parts. The ready-made parts are selected to be as common/standard as possible, to make the sourcing of them easy in many countries. For both the raw materials needed for the fabricated parts, and the ready-made parts, refer to the Bill-of-Material for details: **[BigFDM BOM](https://github.com/fab-machines/BigFDM/raw/master/docs/BigFDM%20BOM.pdf)**
+
+The fabrication of the parts mainly relays on standard [Fab Lab equipment](https://docs.google.com/spreadsheets/d/1U-jcBWOJEjBT5A0N84IUubtcHKMEMtndQPLCkZCkVsU/pub?single=true&gid=0&output=html). It will be therefore possible to make BigFDM in any of Fab Labs worldwide having it. Below a list of the required tools and machines:
+
+- C02 laser cutter:
+ - able to cut 8mm acrylic
+ - needed for small acrylic parts
+- large format wood CNC machine:
+ - ShopBot or similar, size 2500x1250mm
+ - to machine the aluminum parts (bed, Z axis supports)
+ - to machine the aluminum composite for the housing
+ - to machine the acrylic for the housing windows
+ - to machine the POM parts (motor holders, attachments)
+- 3D printer:
+ - a small one (20x20x20cm) is sufficient
+ - to print the filament/cables holders 
+- Desktop format CNC machine:
+ - Roland MDX50/MDX20/SRM20 or similar small machine (as well the cheap chinese ones)
+ - to produce the required PCBs
+- standard set of tools:
+ - spanner key set
+ - hex key set
+ - DIN 875
+ - calipers
+ - rulers
+ - screwdriver set
+ - player set (grabber/cutter etc..)
+ - clamps
+ - rubber hummers
+
+Both fabricated and ready-made parts have been modeled inside the **[BigFDM Fusion 360 model](https://github.com/fab-machines/BigFDM/raw/master/cad/BigFDM.f3d)**. Using Fusion is possible to export/prepare the parts for production in the following ways:
+
+- right click save as STL, on a body that needs to be 3D printed
+- use the built-in Fusion CAM processor for the machined parts
+- project on a surface, and then right click export as DXF, for laser cutting
+ 
+For more details about the tools and once you have all the fabricated and ready-made parts parts available, refer to the for step-by-step assembly instructions and tips: **[BigFDM Building Manual](https://github.com/fab-machines/BigFDM/wiki)** 
+
+Big FDM requires different fabbable PCBs to work. Below the download links for the eagle files that you use to fabricate them:
+
+- **[satshakit-mega schematic](https://github.com/fab-machines/BigFDM/blob/master/electronics/satshakit-mega/satshakit-mega.sch)**, **[satshakit-mega board](https://github.com/fab-machines/BigFDM/blob/master/electronics/satshakit-mega/satshakit-mega.brd)**
+- **[satstep6600 schematic](https://github.com/fab-machines/BigFDM/raw/master/electronics/satstep6600/satstep6600.sch)**, **[satstep6600 board](https://github.com/fab-machines/BigFDM/raw/master/electronics/satstep6600/satstep6600.brd)**
+- **[mosfet board schematic](https://github.com/fab-machines/BigFDM/raw/master/electronics/mosfet-board/mosfer-board.sch)**, **[mosfet board](https://github.com/fab-machines/BigFDM/raw/master/electronics/mosfet-board/mosfet-board.brd)**
+- **[sensor board schematic](https://github.com/fab-machines/BigFDM/raw/master/electronics/sensor-board/sensor-board.sch)**, **[sensor board](https://github.com/fab-machines/BigFDM/raw/master/electronics/sensor-board/sensor-board.brd)**
+- **[endstop board schematic](https://github.com/fab-machines/BigFDM/raw/master/electronics/endstop-board/endstop-board.sch)**, **[endstop board](https://github.com/fab-machines/BigFDM/raw/master/electronics/endstop-board/endstop-board.brd)**
 
 Download here the configuration files (right click save as):
 
@@ -96,12 +143,12 @@ Download here the configuration files (right click save as):
 - **[Cura  machine settings](https://github.com/fab-machines/BigFDM/raw/master/config/BigFDM_machine_settings.png)**
 - **[Cura extruder settings](https://github.com/fab-machines/BigFDM/raw/master/config/BigFDM_extruder_settings.png)**
 
-To control the machine and to stream the G-Code, [Repetier-Host](https://www.repetier.com/) has been used.
-
 Known issues
 --
 
 - the extruder used is a dual Geetech MK8, which is good up to 0.5mm nozzle but has difficulties in keeping the temperature with an 1mm nozzle; in the future will be replaced by a custom made extruder supporting nozzles up to 2mm
+
+- because of the difficulties for the extruder to warmup, to save time it is recommended to start heating it manually whenever possible before starting printing 
 
 - the electronics setup requires improvements, especially a custom made board in place of the satshakit-mega and an additonal all-in-one board, replacing the mosfet, sensor and endstop boards
 
