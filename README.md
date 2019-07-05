@@ -5,20 +5,65 @@
 
 BigFDM
 --
-BigFDM is a large scale 3D printer allowing the making of big objects. Developed and built in a Fab Lab, it will allow to run classes on 3D printing and to make different experimentation useful in different scenarios, for example the printing of orthotics and prosthesis of any size, furniture, replacement parts, industrial design prototypes, molds for casting of full scale parts, artistic installations, musical instruments. Further possibilities are to print parts of other open source machines and equipment, giving to the user the freedom to prototype using large scale parts.**BigFDM specifications**:- 800mm x 800mm x 900mm printing area
-- dual extruder with interchangeble nozzle
-- 2.85/3mm filament
-- 0.4 - 1mm nozzle size
-- NEMA 24, 23 and 17 stepper motors
-- stages with HiWin linear guides
-- anodized aluminium frame
-- fully enclosed body of aluminum composite and acrylic
-- power Requirements 220V, 3000W max
-- integrated tablet for machine control
-- USB port
-- cost of about 2600€
+BigFDM is a large scale 3D printer allowing the making of big objects. Developed and built in a Fab Lab, it will allow to run classes on 3D printing and to make different experimentation useful in different scenarios, for example the printing of orthotics and prosthesis of any size, furniture, replacement parts, industrial design prototypes, molds for casting of full scale parts, artistic installations, musical instruments. Further possibilities are to print parts of other open source machines and equipment, giving to the user the freedom to prototype using large scale parts.**BigFDM specifications**:- **800mm x 800mm x 900mm** printing area
+- **dual extruder** with interchangeble nozzle
+- **2.85mm** filament
+- **0.4 - 1mm** nozzle size
+- **NEMA 24/23**  stepper motors
+- stages with **HiWin linear guides**
+- anodized **aluminium frame**
+- **closed housing** of aluminum composite and acrylic
+- fabbable **[satshakit](https://github.com/satshakit) and [satstep](https://github.com/satstep)** based electronics
+- **integrated tablet** for machine control
+- printing from **USB** drive
+- BOM cost of about **2600€**
+- power requirements 220V, 3000W max
 
 <img src="media/printing1.jpg" width="100%">
+
+Machine design
+--
+
+<img src="media/renderings/rendering_full.png" width="100%">
+
+BigFDM has been designed considering to keep fixed from the beginning few constraints, which then influenced the rest of the subsequent design choices:
+
+- the all machine parts must be inside a boxed main frame
+- the machine XY stages design must be independent and consistent by itself
+- the Z axis moves the bed up or down
+
+<img src="media/renderings/rendering_main_frame.png" width="100%">
+
+These have been tought in order to bring the following benefits:
+
+- a **compact design** that maximize the printing area while minizing the unused space (just 2mm between the bed supports and the housing!)
+-  minimizing the unused space has **lowered the cost** of the frame and the housing parts
+-  the main frame serves both as **structural squared reference** for all the machine parts and well as body for the housing
+-  the **XY stages can be completely removed** without disassembling any other machine section
+-  the **XY stage indipendent design** can be reused to develop other machines
+-  the machine printing **area can be scaled up/down** just by changing the length of few machine parts
+
+####X and Y stages
+
+The X and Y stages integrates all their components inside a squared plane frame of T-Slots profiles. Implementing a sort of **stages interoperability**, the stages frame can be completely detached from the machine, and virtually, plugged into a different machine having similar frame shape (eg a laser cutter). 
+
+<img src="media/renderings/rendering_stages.png" width="100%">
+
+####Z axis
+
+The Z axis uses a single NEMA 24 to move 4 lead screws guided by linear rods and bearings. Because of layer by layer downwards needed movements, the bed will never move fast, with the maximum speed used more for manual movements. The main frame is used as support structure for all the Z axis parts.
+
+<img src="media/renderings/rendering_z.png" width="100%">
+
+####Bed
+
+<img src="media/renderings/rendering_b1.png" width="100%">
+
+Made out of a 6mm aluminum plate cut with the CNC, the printing bed is suspended on a lower frame structure by using 4 x 8mm DIN 912 bolts. The lower bed frame in turn is attached to the Z axis lead screws and linear rods. The lower frame is kept parallel to the upper stages by mechanically aligning it during the assembly, while the printing bed flatness can be finely tuned by screwing/unscrewing the 4 bolts. The design of the printing bed takes into account its **thermal expansion**, leaving a tolerance of expansion that exceeds the calculated one from the aluminum.
+
+<img src="media/renderings/rendering_b2.png" width="100%">
+
+####Housing
 
 Electronics
 --
