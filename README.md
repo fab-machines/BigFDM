@@ -251,7 +251,7 @@ alt="http://img.youtube.com/vi/mlnE0L0cWro/0.jpg" width="800" height="600" borde
 " target="_blank"><img src="http://img.youtube.com/vi/w7HM4-2B8Nc/0.jpg" 
 alt="http://img.youtube.com/vi/w7HM4-2B8Nc/0.jpg" width="800" height="600" border="0" /></a>
 
-**How to Make BigFDM: Tunisia Workshop**
+**How to Make BigFDM: Tunisia Workshop at [Fab Lab ENIT](https://www.facebook.com/FabLabENIT/)**
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=wLneWQhjYCM
 " target="_blank"><img src="http://img.youtube.com/vi/wLneWQhjYCM/0.jpg" 
