@@ -13,7 +13,7 @@ BigFDM
 --
 BigFDM is an open source large scale 3D printer. 
 
-Taking advantage of what we have learned in [Fab Academy](https://fabacademy.org/), BigFDM has been built using standard [Fab Lab equipment](https://docs.google.com/spreadsheets/d/1U-jcBWOJEjBT5A0N84IUubtcHKMEMtndQPLCkZCkVsU/pub?single=true&gid=0&output=html) and [techniques](http://fab.academany.org/2019/schedule.html). Reversing the consumer process, where knowledge and building of machines stays inside a black box managed by companies, BigFDM brings the advantages of an open source development:
+Taking advantage of what we have learned in [Fab Academy](https://fabacademy.org/), BigFDM has been built using standard [Fab Lab equipment](https://docs.google.com/spreadsheets/d/1U-jcBWOJEjBT5A0N84IUubtcHKMEMtndQPLCkZCkVsU/pub?single=true&gid=0&output=html) and [techniques](http://fab.academany.org/2019/schedule.html). BigFDM was in fact built in [Fab Lab UAE](http://fablabuae.ae/) by Daniele Ingrassia with the help of Hashim Al Sakkaf. Reversing the consumer process, where knowledge and building of machines stays inside a black box managed by companies, BigFDM brings the advantages of an open source development:
 
 - full awareness about how the machine works
 - reproducible design
@@ -306,10 +306,13 @@ Holstenhofweg 85<br>
 
 
 Thanks:<br>
+<br>
 **[Fablab UAE](http://fablabuae.ae/)**<br />
 176 6 D St - Satwa <br />
 Dubai - United Arab Emirates<br />
 fablabuae@gmail.com
+
+**Paul Anand**
 
 License
 -- 
