@@ -205,11 +205,11 @@ Both fabricated and ready-made parts have been modeled inside the **[BigFDM Fusi
 - use the built-in Fusion CAM processor for the machined parts
 - project on a surface, and then right click export as DXF, for laser cutting
  
-For more details about the tools and once you have all the fabricated and ready-made parts parts available, refer to the for step-by-step assembly instructions and tips: **[BigFDM Building Manual](https://github.com/fab-machines/BigFDM/wiki)** 
+For more details about the tools and once you have all the fabricated and ready-made parts parts available, refer to the for step-by-step assembly instructions and tips: **[BigFDM Building Manual](https://github.com/fab-machines/BigFDM/wiki/Big-FDM-Building-Manual)** 
 
 Big FDM requires different fabbable PCBs to work. Below the download links for the eagle files that you use to fabricate them:
 
-- **[satshakit-mega schematic](https://github.com/fab-machines/BigFDM/blob/master/electronics/satshakit-mega/satshakit-mega.sch)**, **[satshakit-mega board](https://github.com/fab-machines/BigFDM/blob/master/electronics/satshakit-mega/satshakit-mega.brd)**
+- **[satshakit-mega schematic](https://raw.githubusercontent.com/fab-machines/BigFDM/master/electronics/satshakit-mega/satshakit-mega.sch)**, **[satshakit-mega board](https://raw.githubusercontent.com/fab-machines/BigFDM/master/electronics/satshakit-mega/satshakit-mega.brd)**
 - **[satstep6600 schematic](https://github.com/fab-machines/BigFDM/raw/master/electronics/satstep6600/satstep6600.sch)**, **[satstep6600 board](https://github.com/fab-machines/BigFDM/raw/master/electronics/satstep6600/satstep6600.brd)**
 - **[mosfet board schematic](https://github.com/fab-machines/BigFDM/raw/master/electronics/mosfet-board/mosfer-board.sch)**, **[mosfet board](https://github.com/fab-machines/BigFDM/raw/master/electronics/mosfet-board/mosfet-board.brd)**
 - **[sensor board schematic](https://github.com/fab-machines/BigFDM/raw/master/electronics/sensor-board/sensor-board.sch)**, **[sensor board](https://github.com/fab-machines/BigFDM/raw/master/electronics/sensor-board/sensor-board.brd)**
