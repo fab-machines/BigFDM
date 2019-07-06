@@ -263,6 +263,8 @@ alt="http://img.youtube.com/vi/wLneWQhjYCM/0.jpg" width="800" height="600" borde
 <br><br><br>
 <img src="media/vase_small_logo.jpeg" width="100%">
 <br><br><br>
+<img src="media/z_corner.jpg" width="100%">
+<br><br><br>
 <img src="media/electronics_plate.jpeg" width="100%">
 
 Author
