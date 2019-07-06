@@ -34,6 +34,7 @@ BigFDM allows the printing of large scale objects, some examples can be orthotic
 - **NEMA 24/23**  stepper motors
 - stages with **HiWin linear guides**
 - anodized **aluminium frame**
+- **heated bed** with 4 x 750W bed heaters
 - **closed housing** of aluminum composite and acrylic
 - fabbable **[satshakit](https://github.com/satshakit) and [satstep](https://github.com/satstep)** based electronics
 - **integrated tablet** for machine control
