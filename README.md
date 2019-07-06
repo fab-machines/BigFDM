@@ -31,7 +31,7 @@ BigFDM has been designed considering to keep fixed from the beginning few constr
 - the machine XY stages design must be independent and consistent by itself
 - the Z axis moves the bed up or down
 
-<img src="media/renderings/rendering_main_frame.jpg" width="80%">
+<img src="media/renderings/rendering_main_frame.jpg" width="100%">
 
 These have been tought in order to bring the following benefits:
 
@@ -52,7 +52,7 @@ The X and Y stages integrates all their components inside a squared plane frame 
 Z axis
 --
 
-The Z axis uses a single NEMA 24 to move 4 lead screws guided by linear rods and bearings. Because of layer by layer downwards needed movements, the bed will never move fast, with the maximum speed used more for manual movements. The main frame is used as support structure for all the Z axis parts.
+The Z axis uses a single NEMA 24 to move 4 lead screws guided by 4 linear rods and bearings. A 4.7m closed loop HTD M3 belt is used to transmit the movement with a 2 to 1 pulley ratio. The lead screws are supported by ball bearing both at the top and the bottom, where also pulleys are attached. The corner structural parts are made with CNC milled 20mm acrylic, while the rods and bearing supports use CNC milled POM. Because of layer by layer downwards needed movements, the bed will never move fast, with the maximum speed used more for manual movements. The main frame is used as support structure for all the Z axis parts.
 
 <img src="media/renderings/rendering_z.jpg" width="100%">
 
@@ -61,7 +61,7 @@ Bed
 
 <img src="media/renderings/rendering_b1.jpg" width="100%">
 
-Made out of a 6mm aluminum plate cut with the CNC, the printing bed is suspended on a lower frame structure by using 4 x 8mm DIN 912 bolts. The lower bed frame in turn is attached to the Z axis lead screws and linear rods. The lower frame is kept parallel to the upper stages by mechanically aligning it during the assembly, while the printing bed flatness can be finely tuned by screwing/unscrewing the 4 bolts. The design of the printing bed takes into account its **thermal expansion**, leaving a tolerance of expansion that exceeds the calculated one from the aluminum.
+Made out of a 6mm aluminum plate cut with the CNC, the printing bed is suspended onto a lower frame structure by using 4 x 8mm DIN 912 bolts. The lower bed frame in turn is attached to the Z axis lead screws and linear rods. The lower frame is kept parallel to the upper stages by mechanically aligning it during the assembly, while the printing bed flatness can be finely tuned by screwing/unscrewing the 4 bolts. The design of the printing bed takes into account its **thermal expansion**, leaving a tolerance of expansion that exceeds the calculated one from the aluminum.
 
 <img src="media/renderings/rendering_b2.jpg" width="100%">
 
@@ -74,9 +74,7 @@ The housing has been developed to keep the internal temperature stable, and to a
 
 Electronics
 --
-The electronics of BigFDM consists of a set of fabbable electronics, derived from the original **[satshakit](https://github.com/satshakit)** board and **[satstep](https://github.com/satstep)** stepper drivers, plus some additional boards.
-<br><br>
-Following the used boards and their role in BigFDM.<br>
+The electronics of BigFDM consists of a set of fabbable electronics, derived from the original **[satshakit](https://github.com/satshakit)** board and **[satstep](https://github.com/satstep)** stepper drivers, plus some additional boards. Following the used boards and their role in BigFDM.<br>
 
 **[satshakit-mega](https://github.com/fab-machines/BigFDM/tree/master/electronics/satshakit-mega)**
 
