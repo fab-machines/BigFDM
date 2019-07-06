@@ -19,11 +19,11 @@ BigFDM is a large scale 3D printer allowing the making of big objects. Developed
 - BOM cost of about **2600€**
 - power requirements 220V, 3000W max
 
-<img src="media/printing1.jpg" width="80%">
+<img src="media/printing1.jpg" width="100%">
 
 Machine design
 --
-<img src="media/renderings/rendering_full.jpg" width="80%">
+<img src="media/renderings/rendering_full.jpg" width="100%">
 
 BigFDM has been designed considering to keep fixed from the beginning few constraints, which then influenced the rest of the subsequent design choices:
 
@@ -47,30 +47,30 @@ X and Y stages
 
 The X and Y stages integrates all their components inside a squared plane frame of T-Slots profiles. Implementing a sort of **stages interoperability**, the stages frame can be completely detached from the machine, and virtually, plugged into a different machine having similar frame shape (eg a laser cutter). 
 
-<img src="media/renderings/rendering_stages.jpg" width="80%">
+<img src="media/renderings/rendering_stages.jpg" width="100%">
 
 Z axis
 --
 
 The Z axis uses a single NEMA 24 to move 4 lead screws guided by linear rods and bearings. Because of layer by layer downwards needed movements, the bed will never move fast, with the maximum speed used more for manual movements. The main frame is used as support structure for all the Z axis parts.
 
-<img src="media/renderings/rendering_z.jpg" width="80%">
+<img src="media/renderings/rendering_z.jpg" width="100%">
 
 Bed
 --
 
-<img src="media/renderings/rendering_b1.jpg" width="80%">
+<img src="media/renderings/rendering_b1.jpg" width="100%">
 
 Made out of a 6mm aluminum plate cut with the CNC, the printing bed is suspended on a lower frame structure by using 4 x 8mm DIN 912 bolts. The lower bed frame in turn is attached to the Z axis lead screws and linear rods. The lower frame is kept parallel to the upper stages by mechanically aligning it during the assembly, while the printing bed flatness can be finely tuned by screwing/unscrewing the 4 bolts. The design of the printing bed takes into account its **thermal expansion**, leaving a tolerance of expansion that exceeds the calculated one from the aluminum.
 
-<img src="media/renderings/rendering_b2.jpg" width="80%">
+<img src="media/renderings/rendering_b2.jpg" width="100%">
 
 Housing
 --
 
 The housing has been developed to keep the internal temperature stable, and to allow the bed to quickly warmup. Because the machine parts have been constrained to be inside, the housing is attached directly to the main frame, and no additional parts are needed. The corners are made by 4mm aluminum composite (also called as dibond), while the windows are 6mm acryllic. Both materials have been CNC milled and the design is made in a way to fit two full sheets (about 2400x1250mm) of acrylic and one of aluminum composite. The tablet enclousure is made with the same materials, and allows to quickly remove it from the top.
 
-<img src="media/renderings/rendering_housing.jpg" width="80%">
+<img src="media/renderings/rendering_housing.jpg" width="100%">
 
 Electronics
 --
@@ -80,7 +80,7 @@ Following the used boards and their role in BigFDM.<br>
 
 **[satshakit-mega](https://github.com/fab-machines/BigFDM/tree/master/electronics/satshakit-mega)**
 
-<img src="media/electronics/satshakit-mega.jpg" width="70%">
+<img src="media/electronics/satshakit-mega.jpg" width="100%">
 
 Based on the [ATMega2560](https://www.microchip.com/wwwproducts/en/ATmega2560), this board provides the necessary microcontroller hardware for the Marlin manage its logic functionalities. Furthermore integrates an USB-to-Serial converter and USB port. Developed as general purpose board, not all the pins will be used. In the future this board will be a custom made solution for BigFDM. Link to the original [repo](https://github.com/satshakit/satshakit-mega).
 
@@ -88,7 +88,7 @@ Based on the [ATMega2560](https://www.microchip.com/wwwproducts/en/ATmega2560), 
 
 **[satstep6600](https://github.com/fab-machines/BigFDM/tree/master/electronics/satstep6600)**
 
-<img src="media/electronics/satstep6600.jpg" width="70%">
+<img src="media/electronics/satstep6600.jpg" width="100%">
 
 Proved to have a robust design by being used in **[LaserDuo](http://laserduo.com/)** for more than a year, the satstep6600 is the stepper driver used to move the NEMA 23/24 used in BigFDM. Based on the Toshiba [TB6600HG](http://www.massmind.org/images/massmind/TB6600HG_datasheet.pdf) it can give up to 4.5A per coil to a single motor, whereas the NEMA 24 used will take a maximum of 4A. Link to the original [repo](https://github.com/satstep/satstep6600).
 
@@ -104,7 +104,7 @@ Developed as an add-in to the satshakit-mega for BigFDM, the mosfet board integr
 
 **[Sensor Board](https://github.com/fab-machines/BigFDM/tree/master/electronics/sensor-board)**
 
-<img src="media/electronics/SensorBoard.png" width="70%">
+<img src="media/electronics/SensorBoard.png" width="100%">
 
 The sensor board integrates simple design with filtering capacitors and pull-up resistor. To this board the thermistors from the extruder and one of the thermistor of the bed heaters will be connected, together with the analog pins from the satshakit-mega.
 
@@ -112,7 +112,7 @@ The sensor board integrates simple design with filtering capacitors and pull-up 
 
 **[Endstop Board](https://github.com/fab-machines/BigFDM/tree/master/electronics/endstop-board)**
 
-<img src="media/electronics/EndstopBoard.png" width="70%">
+<img src="media/electronics/EndstopBoard.png" width="100%">
 
 In a similar way of the Sensor Board, the Endstop Boards has some pull-up resistors and some capacitors to filter the noise coming from the endstops. To this board the endstops and the limits min (x-min, y-min, z-min) from the satshakit-mega will be connected. BigFDM uses normally open endstops. 
 
