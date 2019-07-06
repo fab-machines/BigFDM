@@ -23,7 +23,7 @@ BigFDM is a large scale 3D printer allowing the making of big objects. Developed
 
 Machine design
 --
-<img src="media/renderings/rendering_full.png" width="100%">
+<img src="media/renderings/rendering_full.jpg" width="100%">
 
 BigFDM has been designed considering to keep fixed from the beginning few constraints, which then influenced the rest of the subsequent design choices:
 
@@ -31,7 +31,7 @@ BigFDM has been designed considering to keep fixed from the beginning few constr
 - the machine XY stages design must be independent and consistent by itself
 - the Z axis moves the bed up or down
 
-<img src="media/renderings/rendering_main_frame.png" width="100%">
+<img src="media/renderings/rendering_main_frame.jpg" width="100%">
 
 These have been tought in order to bring the following benefits:
 
@@ -47,23 +47,23 @@ X and Y stages
 
 The X and Y stages integrates all their components inside a squared plane frame of T-Slots profiles. Implementing a sort of **stages interoperability**, the stages frame can be completely detached from the machine, and virtually, plugged into a different machine having similar frame shape (eg a laser cutter). 
 
-<img src="media/renderings/rendering_stages.png" width="100%">
+<img src="media/renderings/rendering_stages.jpg" width="100%">
 
 Z axis
 --
 
 The Z axis uses a single NEMA 24 to move 4 lead screws guided by linear rods and bearings. Because of layer by layer downwards needed movements, the bed will never move fast, with the maximum speed used more for manual movements. The main frame is used as support structure for all the Z axis parts.
 
-<img src="media/renderings/rendering_z.png" width="100%">
+<img src="media/renderings/rendering_z.jpg" width="100%">
 
 Bed
 --
 
-<img src="media/renderings/rendering_b1.png" width="100%">
+<img src="media/renderings/rendering_b1.jpg" width="100%">
 
 Made out of a 6mm aluminum plate cut with the CNC, the printing bed is suspended on a lower frame structure by using 4 x 8mm DIN 912 bolts. The lower bed frame in turn is attached to the Z axis lead screws and linear rods. The lower frame is kept parallel to the upper stages by mechanically aligning it during the assembly, while the printing bed flatness can be finely tuned by screwing/unscrewing the 4 bolts. The design of the printing bed takes into account its **thermal expansion**, leaving a tolerance of expansion that exceeds the calculated one from the aluminum.
 
-<img src="media/renderings/rendering_b2.png" width="100%">
+<img src="media/renderings/rendering_b2.jpg" width="100%">
 
 Housing
 --
