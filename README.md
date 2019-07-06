@@ -46,10 +46,11 @@ These have been tought in order to bring the following benefits:
 
 X and Y stages
 --
+<img src="media/renderings/rendering_stages.jpg" width="100%">
 
 The X and Y stages integrates all their components inside a squared plane frame of T-Slots profiles. Hiwin 15mm linear guides and 10mm GT2 belts, together with custom CNC milled POM parts have been used. Implementing a sort of **stages interoperability**, the stages frame can be completely detached from the machine, and virtually, plugged into a different machine having similar frame shape (eg a laser cutter). Similar interoperability has also been recursively kept for the Y axis, which can be modified/removed without changing the X axis. 
 
-<img src="media/renderings/rendering_stages.jpg" width="100%">
+<img src="media/renderings/rendering_y.jpg" width="100%">
 
 Z axis
 --
