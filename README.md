@@ -1,11 +1,33 @@
 <div align="center"><h1 style="font-family: courier;" align="center">BigFDM</h1></div>
 
-<div align="center"><img src="media/front1.jpg" width="100%"></div>
+<div align="center"><img src="media/side1.jpg" width="100%"></div>
 <div align="center"><i>Open Source Large Scale 3D Printer</i></div>
+
+Premises
+--
+We dream in a future of freedom, where open source hardware and [Fab Labs](https://fablabs.io/) enable people to fully understand how to make things they need, and where decentralized local production is customized to impact the surrounding community. Believing that empowering the user with knowledge about how to make machines, BigFDM wants to give to the world a powerful open source tool, to 3D print any large scale object you may need. And, together with [LaserDuo](http://laserduo.com/), this is one of the first steps in developing other machines sharing the same philosophy.
+
+<img src="media/printing1.jpg" width="100%">
 
 BigFDM
 --
-BigFDM is a large scale 3D printer allowing the making of big objects. Developed and built in a Fab Lab, it will allow to run classes on 3D printing and to make different experimentation useful in different scenarios, for example the printing of orthotics and prosthesis of any size, furniture, replacement parts, industrial design prototypes, molds for casting of full scale parts, artistic installations, musical instruments. Further possibilities are to print parts of other open source machines and equipment, giving to the user the freedom to prototype using large scale parts.**BigFDM specifications**:- **800mm x 800mm x 900mm** printing area
+BigFDM is an open source large scale 3D printer. 
+
+Taking advantage of what we have learned in [Fab Academy](https://fabacademy.org/), BigFDM has been built using standard [Fab Lab equipment](https://docs.google.com/spreadsheets/d/1U-jcBWOJEjBT5A0N84IUubtcHKMEMtndQPLCkZCkVsU/pub?single=true&gid=0&output=html) and [techniques](http://fab.academany.org/2019/schedule.html). Reversing the consumer process, where knowledge and building of machines stays inside a black box managed by companies, BigFDM brings the advantages of an open source development:
+
+- full awareness about how the machine works
+- reproducible design
+- possibility to customize the machine and/or to build new ones
+- local self-fixing and self-production of the machine parts
+- community can use and improve the design
+- cheap alternative to large scale 3D printers
+- use BigFDM as tool to produce other open source machines
+
+
+BigFDM allows the printing of large scale objects, some examples can be orthotics and prosthesis, art installations, furniture, replacement parts, industrial design prototypes, molds for casting of full scale parts. Using  Fused Deposition Modeling (or FDM), it can use standard 2.85mm 3D printer filament, and as well common extruders nozzles.
+
+<img src="media/top_vase.jpg" width="100%">
+**BigFDM specifications**:- **800mm x 800mm x 900mm** printing area
 - **dual extruder** with interchangeble nozzle
 - **2.85mm** filament
 - **0.4 - 1mm** nozzle size
@@ -19,7 +41,7 @@ BigFDM is a large scale 3D printer allowing the making of big objects. Developed
 - BOM cost of about **2600€**
 - power requirements 220V, 3000W max
 
-<img src="media/printing1.jpg" width="100%">
+<img src="media/vase_hand.jpg" width="100%">
 
 Machine design
 --
@@ -143,6 +165,8 @@ To control the machine and to stream the G-Code, [Repetier-Host](https://www.rep
 Build your own BigFDM
 --
 
+<img src="media/building2.jpg" width="100%">
+
 BigFDM is made by using a mix of fabricated and ready-made parts. The ready-made parts are selected to be as common/standard as possible, to make the sourcing of them easy in many countries. For both the raw materials needed for the fabricated parts, and the ready-made parts, refer to the Bill-of-Material for details: **[BigFDM BOM](https://github.com/fab-machines/BigFDM/raw/master/docs/BigFDM%20BOM.pdf)**
 
 The fabrication of the parts mainly relays on standard [Fab Lab equipment](https://docs.google.com/spreadsheets/d/1U-jcBWOJEjBT5A0N84IUubtcHKMEMtndQPLCkZCkVsU/pub?single=true&gid=0&output=html). It will be therefore possible to make BigFDM in any of Fab Labs worldwide having it. Below a list of the required tools and machines:
@@ -173,6 +197,8 @@ The fabrication of the parts mainly relays on standard [Fab Lab equipment](https
  - clamps
  - rubber hummers
 
+ <img src="media/building.jpg" width="100%">
+
 Both fabricated and ready-made parts have been modeled inside the **[BigFDM Fusion 360 model](https://github.com/fab-machines/BigFDM/raw/master/cad/BigFDM.f3d)**. Using Fusion is possible to export/prepare the parts for production in the following ways:
 
 - right click save as STL, on a body that needs to be 3D printed
@@ -196,6 +222,8 @@ Download here the configuration files (right click save as):
 - **[Cura  machine settings](https://github.com/fab-machines/BigFDM/raw/master/config/BigFDM_machine_settings.png)**
 - **[Cura extruder settings](https://github.com/fab-machines/BigFDM/raw/master/config/BigFDM_extruder_settings.png)**
 
+<img src="media/building_results.jpg" width="100%">
+
 Known issues
 --
 
@@ -207,22 +235,35 @@ Known issues
 
 
 - the Z axis design needs multiple parts for the supporting corners of the lead screws and the linear rods; in the future replaced by an unique block of CNC milled aluminum
+
+- the G-Code streaming from the tablet is sometimes gets corrupted and/or interrupts suddenly; is needed to use an higher quality shielded USB cable, or  to try Octoprint instead of Repetier host as G-Code streamer
  
 
 Media
 --
-**BigFDM videos**:
+**BigFDM printing**
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=mlnE0L0cWro
+" target="_blank"><img src="http://img.youtube.com/vi/mlnE0L0cWro/0.jpg" 
+alt="http://img.youtube.com/vi/mlnE0L0cWro/0.jpg" width="800" height="600" border="0" /></a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=w7HM4-2B8Nc
 " target="_blank"><img src="http://img.youtube.com/vi/w7HM4-2B8Nc/0.jpg" 
 alt="http://img.youtube.com/vi/w7HM4-2B8Nc/0.jpg" width="800" height="600" border="0" /></a>
 
+**How to Make BigFDM: Tunisia Workshop**
 
-**BigFDM pictures**:
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=wLneWQhjYCM
+" target="_blank"><img src="http://img.youtube.com/vi/wLneWQhjYCM/0.jpg" 
+alt="http://img.youtube.com/vi/wLneWQhjYCM/0.jpg" width="800" height="600" border="0" /></a>
 
-<img src="media/side1.jpg" width="100%">
-<img src="media/top_vase.jpg" width="100%">
+**BigFDM pictures**
 
+<img src="media/front1.jpg" width="100%">
+<br><br><br>
+<img src="media/vase_small_logo.jpeg" width="100%">
+<br><br><br>
+<img src="media/electronics_plate.jpeg" width="100%">
 
 Author
 --
@@ -231,6 +272,15 @@ Author
 
 **Project Helper:**<br>
 **[Hashim Al Sakkaf](http://archive.fabacademy.org/fabacademy2017/fablabuae/students/154/)**
+
+<img src="media/team.jpg" width="100%">
+
+Donations
+--
+
+Our dream is to have impact by making **open source machines digitally available and locally produced anywhere in world**. We plan to open a dedicated Fab Lab to foster open machine building and digital fabrication research. Practically several tasks and many expensens have to be sustained to give this dream the chance to have a future. Such as the renting of a proper space, the making/purchasing of proper equipment, the sustainability of our work and lifes. If you share this mindset and BigFDM is useful to you, please help us to make this dream a reality by donating your support:
+
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8R5T6ZCED39M2)
 
 Contact
 --
