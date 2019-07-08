@@ -18,6 +18,7 @@ Taking advantage of what we have learned in [Fab Academy](https://fabacademy.org
 - full awareness about how the machine works
 - reproducible design
 - possibility to customize the machine and/or to build new ones
+- built as much as possible with local materials
 - local self-fixing and self-production of the machine parts
 - community can use and improve the design
 - cheap alternative to large scale 3D printers
