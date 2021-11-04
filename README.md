@@ -293,12 +293,6 @@ Our dream is to have impact by making **open source machines digitally available
 
 [![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8R5T6ZCED39M2)
 
-Contact
---
-- **ingrassiada@gmail.com**
-- **[linkedin](http://it.linkedin.com/in/danieleingrassia)**
-
-
 Acknowledgements
 --
 
