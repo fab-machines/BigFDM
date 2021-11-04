@@ -318,7 +318,7 @@ fablabuae@gmail.com
 
 License
 -- 
-The BigFDM hardware design, CAD, BOM, settings and relative files are are released under the following open source license:
+The BigFDM, its hardware design, CAD, BOM, settings and relative files are are released under the following open source license:
 
 - CERN Open Hardware Licence Version 2 Weakly Reciprocal - **[CERN-OHL-W](LICENSE_CERN_OHL_W_V2.txt)**
 
