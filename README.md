@@ -277,12 +277,12 @@ Author
 
 The author of BigFDM is:
 
-**Daniele Ingrassia, daniele@inmachines.net**
-**[InMachines Ingrassia GmbH](https://www.inmachines.net/)**
+- **Daniele Ingrassia, daniele@inmachines.net**
+- **[InMachines Ingrassia GmbH](https://www.inmachines.net/)**
 
 
 **Project Helper:**<br>
-**[Hashim Al Sakkaf](http://archive.fabacademy.org/fabacademy2017/fablabuae/students/154/)**
+- **[Hashim Al Sakkaf](http://archive.fabacademy.org/fabacademy2017/fablabuae/students/154/)**
 
 <img src="media/team.jpg" width="100%">
 
