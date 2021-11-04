@@ -28,7 +28,10 @@ Taking advantage of what we have learned in [Fab Academy](https://fabacademy.org
 BigFDM allows the printing of large scale objects, some examples can be orthotics and prosthesis, art installations, furniture, replacement parts, industrial design prototypes, molds for casting of full scale parts. Using  Fused Deposition Modeling (or FDM), it can use standard 2.85mm 3D printer filament, and as well common extruders nozzles.
 
 <img src="media/top_vase.jpg" width="100%">
-**BigFDM specifications**:- **800mm x 800mm x 900mm** printing area
+
+**BigFDM specifications**:
+
+- **800mm x 800mm x 900mm** printing area
 - **dual extruder** with interchangeble nozzle
 - **2.85mm** filament
 - **0.4 - 1mm** nozzle size
@@ -272,7 +275,11 @@ alt="http://img.youtube.com/vi/wLneWQhjYCM/0.jpg" width="800" height="600" borde
 Author
 --
 
-**[Daniele Ingrassia](http://www.fabacademy.org/archives/2015/eu/students/ingrassia.daniele/index.html)**
+The author of BigFDM is:
+
+**Daniele Ingrassia, daniele@inmachines.net**
+**[InMachines Ingrassia GmbH](https://www.inmachines.net/)**
+
 
 **Project Helper:**<br>
 **[Hashim Al Sakkaf](http://archive.fabacademy.org/fabacademy2017/fablabuae/students/154/)**
@@ -317,7 +324,9 @@ fablabuae@gmail.com
 
 License
 -- 
-BigFDM is licensed under the terms of the open source license: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+The BigFDM hardware design, CAD, BOM, settings and relative files are are released under the following open source license:
+
+- CERN Open Hardware Licence Version 2 Weakly Reciprocal - **[CERN-OHL-W](LICENSE_CERN_OHL_W_V2.txt)**
 
 Note
 --
